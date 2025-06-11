@@ -1,12 +1,14 @@
 # ログファイル
 logs/
 *.log
-*.txt
 
 # 一時ファイル
 tmp/
 *.tmp
 *_done.txt
+
+# セッション管理
+sessions/
 
 # OS固有
 .DS_Store
@@ -17,4 +19,7 @@ Thumbs.db
 *.swo
 *~
 .vscode/
-.idea/ 
+.idea/
+
+# Claude設定
+.claude/ 
